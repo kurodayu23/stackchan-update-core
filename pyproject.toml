@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stackchan-update-core"
+version = "0.1.0"
+description = "StackChan 发布清单签名与 OTA 文件校验模块"
+requires-python = ">=3.11"
+dependencies = ["cryptography>=42,<51"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+include = ["stackchan_ai*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
