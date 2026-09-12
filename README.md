@@ -1,5 +1,7 @@
 # StackChan Update Core
 
+**[下载 Python 模块包](https://github.com/kurodayu23/stackchan-update-core/releases/latest)**：提供 `.whl` 安装包与源码归档。该项目是后端库，没有独立窗口或前端；使用 Python 3.11+ 执行 `python -m pip install 下载的whl文件路径`。
+
 从个人 StackChan 扩展项目中精选的两个 Python 后端模块：发布清单签名验证，以及固件/资源包的上传校验和限时下载票据。
 
 这是模块级代码样本，不是完整机器人系统或官方 StackChan 固件。仓库不包含前端、真实固件、个人配置、对话数据或生产密钥。
